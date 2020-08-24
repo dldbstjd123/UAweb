@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, withRouter } from "react-router-dom";
 import './css/Navigation.css';
 
 class Navigation extends React.Component {
@@ -44,9 +44,9 @@ class Navigation extends React.Component {
             <div id='navigation'>
                 <Link id='name' className="links" to="/"><span>유</span><span>니</span><span>텍</span><span>오</span><span>토</span></Link>
                 <div id='nav-links'>
-                    <Link className="links" to="/About">회사소개</Link>
-                    <Link className="links" to="/About">문의</Link>
-                    <Link className="links" to="/About">오시는 길</Link>
+                    <Link className="links" to="/about">회사소개</Link>
+                    <Link className="links" to="/contact">문의</Link>
+                    <Link className="links" to="/location">오시는 길</Link>
                 </div>
             </div>
         )

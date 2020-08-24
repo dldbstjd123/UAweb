@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import './css/App.css';
 
 import Navigation from "./Navigation";
 import Home from "./components/Home";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Location from "./components/Location";
 
 class App extends Component {
   constructor(props) {
@@ -27,8 +28,12 @@ class App extends Component {
       <div className="App">
         <Router>
           <Navigation />
-          <Route path={"/"} component={Home} />
-          <Route path={"/about"} component={About} />
+          <Switch>
+            <Route exact path={"/"} component={Home} />
+            <Route path={"/about"} component={About} />
+            <Route path={"/contact"} component={Contact} />
+            <Route path={"/location"} component={Location} />
+          </Switch>
         </Router>
       </div>
     );
