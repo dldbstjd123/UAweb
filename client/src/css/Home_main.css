@@ -1,9 +1,10 @@
 .home_main{
     color:white;
     position: relative;
-    margin-top:40%;
+    margin-top:40vh;
 }
 
 .home_main_header{
     font-size: 40px;
 }
+
