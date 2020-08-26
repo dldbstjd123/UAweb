@@ -29,13 +29,13 @@ class App extends Component {
         <Router>
           <Navigation />
           <Switch>
-            <div id='background'>
+            
               <Route exact path={"/"} component={Home} />
               <Route path={"/about"} component={About} />
               <Route path={"/contact"} component={Contact} />
               <Route path={"/location"} component={Location} />
-            </div>
           </Switch>
+          <div id='background'></div>
         </Router>
       </div>
     );

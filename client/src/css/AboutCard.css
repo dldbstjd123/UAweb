@@ -1,0 +1,17 @@
+#aboutCardContainer{
+    width:100%;
+    border-radius: 10px;
+    background-color: #424242;
+    opacity: 0.9;
+    padding:20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#aboutCardTitle{
+    font-size:30px;
+}
+
+#aboutCardContent{
+    font-size:14px;
+}
