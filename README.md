@@ -21,6 +21,6 @@ Unitech Auto Website
           
 2. API folder contains Express back-end
 
-  responsible to handel email sending job(UAweb/api/routes/email.js)
+          responsible to handel email sending job(UAweb/api/routes/email.js)
   
 
