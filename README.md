@@ -6,8 +6,9 @@ Unitech Auto Website
 
 1. Client folder contains React front-end
 
-
-    route ----index page (UAweb/client/src/components/Home.js)
+          Route 
+    
+          |----index page (UAweb/client/src/components/Home.js)
     
           |---about page (UAweb/client/src/components/About.js)
           
@@ -19,7 +20,6 @@ Unitech Auto Website
           
           
 2. API folder contains Express back-end
-
 
   responsible to handel email sending job(UAweb/api/routes/email.js)
   
