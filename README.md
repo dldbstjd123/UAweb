@@ -8,9 +8,13 @@ Unitech Auto Website
 
 
     route ----index page (UAweb/client/src/components/Home.js)
+    
           |---about page (UAweb/client/src/components/About.js)
+          
           |---contact page (UAweb/client/src/components/Contact.js)
+          
           |---location page (UAweb/client/src/components/Location.js)
+          
                       every page includes navigation(UAweb/client/src/Navigation.js)
           
           
