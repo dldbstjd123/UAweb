@@ -36,6 +36,7 @@ class App extends Component {
               <Route path={"/contact"} component={Contact} />
               <Route path={"/location"} component={Location} />
           </Switch>
+          <div id='footerDistance'></div>
           <Footer />
           <div id='background'></div>
         </Router>

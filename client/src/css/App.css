@@ -16,7 +16,9 @@
   background-size: cover;
   color: white;
 }
-
+#footerDistance{
+  height:15vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
