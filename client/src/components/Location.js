@@ -61,7 +61,7 @@ class Location extends Component {
                     <div className="locationCardDescriptions"><HiOutlineMail color="white" size="20px"/><div>kevin@unitechauto.co.kr</div></div>
                 </div>
                 <div className="map" id="map"></div>
-                {this.state.loading ? <Loading /> : <div></div>}
+                {this.state.loading ? <Loading /> : <div id='footerDistance'></div>}
             </div>
 
         );
