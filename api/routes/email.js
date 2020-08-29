@@ -15,7 +15,7 @@ router.post('/send', function(req, res, next) {
 
     mailOptions = {
         from: 'lys941121@gmail.com',
-        to: 'lys941121@gmail.com',
+        to: 'kevin@unitechauto.co.kr',
         bcc: 'dannydannyl@me.com',
         subject: '웹사이트 문의 메일',
         replyTo: req.body.email,
