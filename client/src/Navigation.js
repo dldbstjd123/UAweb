@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './css/Navigation.css';
 
 class Navigation extends React.Component {
@@ -11,12 +11,10 @@ class Navigation extends React.Component {
     }
 
     componentDidMount(){
-        console.log('componentDidMount')
         this.textEffectAtStart();
         this.textEffectAfter();
     }
     componentDidUpdate(){
-        console.log('componentDidUpdate')
         this.textEffectAtStart();
     }
 

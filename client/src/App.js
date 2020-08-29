@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Location from "./components/Location";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -35,6 +36,7 @@ class App extends Component {
               <Route path={"/contact"} component={Contact} />
               <Route path={"/location"} component={Location} />
           </Switch>
+          <Footer />
           <div id='background'></div>
         </Router>
       </div>

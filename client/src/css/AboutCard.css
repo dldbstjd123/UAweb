@@ -15,3 +15,6 @@
 #aboutCardContent{
     font-size:14px;
 }
+#aboutCardContent img{
+    width: 100%;
+}

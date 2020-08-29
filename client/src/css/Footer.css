@@ -1,0 +1,16 @@
+#footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #424242;
+    position:fixed;
+    bottom:0;
+    height: 50px;
+    width:100%;
+    font-size:8px;
+}
+.footerTop{
+    display:flex;
+    justify-content: center;
+}

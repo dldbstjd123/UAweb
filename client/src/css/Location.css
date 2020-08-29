@@ -1,0 +1,42 @@
+#locationContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:80vh;
+}
+#locationCardContainer{
+    color: white;
+    background-color: #424242;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding:20px;
+    text-align: left;
+}
+.locationCardDescriptions{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.locationCardDescriptions div{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#map{
+    width:80%;
+    height:80%;
+}
+
+#mapDescription{
+    padding: 5px;
+    background-color: #424242;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+#mapDescription a {
+    color: white;
+}
