@@ -11,7 +11,7 @@
 
 /* under 600px width*/
 @media only screen and (max-width:600px){
-    #home_main{
+    .home_main{
         display: flex;
         flex-direction: column;
         align-items: center;
