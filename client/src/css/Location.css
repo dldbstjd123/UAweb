@@ -27,6 +27,7 @@
     width:80%;
     max-height:80%;
     min-height:70%;
+    z-index: 0;
 }
 
 #mapDescription{
