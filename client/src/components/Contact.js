@@ -53,7 +53,7 @@ const Contact = (props) => {
             document.getElementsByClassName('contactLabel')[1].innerHTML = '이메일';
             document.getElementsByClassName('contactLabel')[2].innerHTML = '메세지';
             try {
-                let fetchData = await fetch("http://localhost:3001/email/send", {
+                let fetchData = await fetch("http://unitechholding.com:3001/email/send", {
                     method: 'POST',
                     mode: 'cors',
                     cache: 'no-cache',
@@ -104,8 +104,6 @@ const Contact = (props) => {
     }
 
     function succeedSendingEmail() {
-        console.log('test')
-        console.log(document.getElementsByClassName('inputContainer')[0].children[0])
         document.getElementsByClassName('inputContainer')[0].children[0].value = ""
         document.getElementsByClassName('inputContainer')[1].children[0].value = ""
         document.getElementsByClassName('inputContainer')[2].children[0].value = ""
